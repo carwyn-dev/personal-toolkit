@@ -1,0 +1,21 @@
+# Dependencies, build output, and coverage
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+
+# Local secrets; example configuration may be committed with dummy values
+.env
+.env.*
+!.env.example
+
+# User-created exports belong outside the source tree
+backups/
+personal-toolkit-backup*.json
+
+# Scratch work, logs, and operating-system files
+work/
+*.log
+.DS_Store
+Thumbs.db

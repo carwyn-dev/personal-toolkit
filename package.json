@@ -1,0 +1,17 @@
+{
+  "name": "personal-toolkit",
+  "version": "0.1.0-dev",
+  "private": true,
+  "type": "module",
+  "description": "Seven browser-local tools for everyday focus and study.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
